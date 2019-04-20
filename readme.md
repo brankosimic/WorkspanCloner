@@ -27,10 +27,9 @@ dotnet --version
 
 <a id="org9ac7c6b"></a>
 
-## project.json
-
 ```sh
 git clone https://github.com/brankosimic/WorkspanCloner.git
+cd WorkspanCloner
 
 ```
 
