@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WorkspanCloner": {
+      "commandName": "Project",
+      "commandLineArgs": "Resources/example.json 5"
+    }
+  }
+}
