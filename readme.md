@@ -14,7 +14,7 @@ All nodes are connected with other nodes in Parents and Children relation.
 
 # Step 1: Install .NET Core
 
-First step is to [install .NET core](https://www.microsoft.com/net/core), this is pretty easy to do, just follow the instructions. You'll know that the install worked if you can type this in your terminal and see a result:
+First step is to [install .NET core](https://dotnet.microsoft.com/download/dotnet-core/2.1), this is pretty easy to do, just follow the instructions. You'll know that the install worked if you can type this in your terminal and see a result:
 
 ```sh
 dotnet --version
