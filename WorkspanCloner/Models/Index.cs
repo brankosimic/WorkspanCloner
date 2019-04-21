@@ -20,6 +20,7 @@ namespace WorkspanCloner.Models
 
             if (!duplicates)
             {
+                allNodes = entitiesInput.Entities.ToDictionary(x => x.EntityId, x => new Node(x.EntityId));
                 sequence = entitiesInput.Entities.Max(x => x.EntityId) + 1;
                 entitiesInput.Links.ForEach(item => Add(item.From, item.To));
             }

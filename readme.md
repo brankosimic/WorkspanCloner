@@ -50,12 +50,6 @@ Once that is complete, run the tests which will also build the project:
 dotnet test
 ```
 
-To use the application, run:
-
-```
-dotnet run --project WorkspanCloner WorkspanCloner/Resources/2levelexample.json 5
-```
-
 To use the application with your .json file, run:
 
 ```
